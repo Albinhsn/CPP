@@ -9,7 +9,7 @@ int main()
 {
     int n, q, k;
     cin >> n >> q;
-    std::vector<std::vector<int>> B(n);
+    vector<vector<int>> B(n);
     for(int i = 0; i<n; i++){
         cin >> k;
         std::vector<int> A(k);
@@ -22,10 +22,13 @@ int main()
         // for(int j = 0; j<k; j++){
         //     cout << A[j];
         // }
-        
+    
     }
-    for(int i = 0; i<n; i++){
-        for(int j = 0; j<)
-    }
+    int a, b;
+    cout << q;
+    for(int i = 0; i<q; i++){
+        cin >> a >> b;
+        cout << B[a][b] << "\n";
+    } 
     return 0;
 }
