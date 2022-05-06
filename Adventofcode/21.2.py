@@ -9,7 +9,7 @@ def calc_new_pos(p_pos):
 def game(p1, p2, p1_pos, p2_pos, turn):
     global p1_wins
     global p2_wins
-    print(p1_wins, p2_wins)
+    
     if turn == True:
         A = calc_new_pos(p1_pos)
         for i in A:    

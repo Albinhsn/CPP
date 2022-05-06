@@ -1,4 +1,4 @@
-from sympy import N
+
 
 
 f = open("input.txt", 'r')
